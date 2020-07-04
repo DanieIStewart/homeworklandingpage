@@ -1,0 +1,47 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+.nav-name{
+  width: 100px;
+}
+
+#intro {
+    background: url("https://images.unsplash.com/photo-1544791685-55e303202484?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* background image  */
+.mask{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+.heading{
+  padding-top: 5rem !important;
+  margin-bottom: 1rem!important;
+  color: white;
+  font-size: 100px;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+}
+.description-text{
+  color: white;
+}
+
+.download-btn{
+  background-color: rgba(156, 142, 143, 0.5);
+  padding-top: 30px;
+  color: white
+}
+.btn-header{
+  padding-bottom: 20px;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
